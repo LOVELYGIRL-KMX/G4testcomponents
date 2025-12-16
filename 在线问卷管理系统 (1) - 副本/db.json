@@ -1,0 +1,121 @@
+{
+  "questionnaires": [
+    {
+      "id": "q-001",
+      "title": "程序员生活调查",
+      "desc": "了解程序员的日常习惯与偏好",
+      "status": "published",
+      "createTime": 1715400000000,
+      "questions": [
+        {
+          "id": "q1",
+          "type": "radio",
+          "title": "你最喜欢的编程语言？",
+          "options": [
+            {
+              "id": "o1",
+              "text": "JavaScript"
+            },
+            {
+              "id": "o2",
+              "text": "Python"
+            },
+            {
+              "id": "o3",
+              "text": "Java"
+            },
+            {
+              "id": "o4",
+              "text": "Go"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "type": "checkbox",
+          "title": "你常用的开发工具（多选）",
+          "options": [
+            {
+              "id": "o1",
+              "text": "VS Code"
+            },
+            {
+              "id": "o2",
+              "text": "IntelliJ IDEA"
+            },
+            {
+              "id": "o3",
+              "text": "Vim/Neovim"
+            }
+          ]
+        }
+      ],
+      "answerList": [
+        {
+          "submitTime": 1715410000000,
+          "answers": {
+            "q1": "o1",
+            "q2": [
+              "o1",
+              "o3"
+            ]
+          }
+        },
+        {
+          "submitTime": 1715420000000,
+          "answers": {
+            "q1": "o2",
+            "q2": [
+              "o1"
+            ]
+          }
+        },
+        {
+          "submitTime": 1715430000000,
+          "answers": {
+            "q1": "o1",
+            "q2": [
+              "o1",
+              "o2"
+            ]
+          }
+        },
+        {
+          "submitTime": 1765717580872,
+          "answers": {
+            "q1": "o2",
+            "q2": [
+              "o1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "q-1765785946036",
+      "title": "大好大市场调研",
+      "desc": "请输入问卷描述...",
+      "status": "draft",
+      "createTime": 1765785946036,
+      "updateTime": 1765786491210,
+      "questions": [
+        {
+          "id": "q-1765785950755",
+          "type": "radio",
+          "title": "什么味道的瓜子最好吃",
+          "options": [
+            {
+              "id": "o-1765785950755-1",
+              "text": "五香"
+            },
+            {
+              "id": "o-1765785950755-2",
+              "text": "焦糖"
+            }
+          ]
+        }
+      ],
+      "answerList": []
+    }
+  ]
+}

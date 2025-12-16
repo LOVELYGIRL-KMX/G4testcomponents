@@ -1,0 +1,5 @@
+{
+  "name": "在线问卷管理系统",
+  "description": "一个基于React和Ant Design的问卷调查系统，包含问卷创建、发布、填写及数据统计功能。",
+  "requestFramePermissions": []
+}
